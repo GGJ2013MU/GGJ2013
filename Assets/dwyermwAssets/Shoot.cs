@@ -18,8 +18,9 @@ public class Shoot : MonoBehaviour {
 			GameObject instance = (GameObject)Instantiate(Resources.Load("Fireball"));
 			instance.transform.rotation = Quaternion.identity;
 			instance.transform.position = transform.position;
-			instance.rigidbody.AddForce(transform.forward * shootForce);
+			//gameObject.GetComponent<Static_Planet_Movement>().movement(0.02f);
+			//instance.rigidbody.AddForce(transform.forward * shootForce);
 		}
-	
+
 	}
 }

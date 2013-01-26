@@ -1,8 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\dwyermwAssets\Shoot.cs">
+    <Files>
+      <File FileName="Assets\marinemr Assets\Scripts\EnvironmentMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\marinemr Assets\Scripts\Enemy\Enemy2.cs" Line="19" Column="14" />
+      <File FileName="Assets\marinemr Assets\Scripts\Static_Planet_Movement.cs" Line="51" Column="19" />
+      <File FileName="Assets\dwyermwAssets\Shoot.cs" Line="18" Column="50" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Matthew\Documents\Video Games\GGJ2013\Assets\Resources\Fireball.cs" line="14" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

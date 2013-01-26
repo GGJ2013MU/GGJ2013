@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\Fireball_Helper.cs" />
      <Compile Include="Assets\dwyermwAssets\Shoot.cs" />
      <Compile Include="Assets\marinemr Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\marinemr Assets\Scripts\Enemy\Enemy2.cs" />
