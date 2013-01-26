@@ -31,7 +31,7 @@ public class Static_Planet_Movement : MonoBehaviour {
 	
 	void OnCollisionEnter(Collision collision){
 		if(collision.gameObject.tag == "Platform"){
-			grounded = true;
+			//grounded = true;
 			rigidbody.velocity += transform.up.normalized * 2;
 		}
 		

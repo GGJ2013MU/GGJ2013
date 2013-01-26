@@ -15,7 +15,7 @@ public class Shoot : MonoBehaviour {
 	void Update () {
 		if(Input.GetMouseButtonDown(0))
 		{
-			GameObject instance = (GameObject)Instantiate(Resources.Load("Bullet"));
+			GameObject instance = (GameObject)Instantiate(Resources.Load("Fireball"));
 			instance.transform.rotation = Quaternion.identity;
 			instance.transform.position = transform.position;
 			instance.rigidbody.AddForce(transform.forward * shootForce);
