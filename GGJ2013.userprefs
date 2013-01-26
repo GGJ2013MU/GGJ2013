@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\dwyermwAssets\Enemy_Goomba.cs">
+    <Files>
+      <File FileName="Assets\dwyermwAssets\Enemy2.cs" Line="9" Column="13" />
+      <File FileName="Assets\dwyermwAssets\Enemy_Reaper.cs" Line="1" Column="1" />
+      <File FileName="Assets\dwyermwAssets\Enemy_Koopa.cs" Line="1" Column="1" />
+      <File FileName="Assets\dwyermwAssets\Enemy_Hand.cs" Line="1" Column="1" />
+      <File FileName="Assets\dwyermwAssets\Enemy_Goomba.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

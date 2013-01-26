@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+	<ProjectGuid>{124634A1-925A-ADD5-9FD8-16A5028504CD}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -44,12 +44,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\dwyermwAssets\Enemy.cs" />
-     <Compile Include="Assets\dwyermwAssets\Enemy_Goomba.cs" />
-     <Compile Include="Assets\dwyermwAssets\Enemy_Hand.cs" />
-     <Compile Include="Assets\dwyermwAssets\Enemy_Koopa.cs" />
-     <Compile Include="Assets\dwyermwAssets\Enemy_Reaper.cs" />
      <Compile Include="Assets\dwyermwAssets\Shoot.cs" />
+     <Compile Include="Assets\marinemr Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\marinemr Assets\Scripts\Enemy\Enemy2.cs" />
+     <Compile Include="Assets\marinemr Assets\Scripts\EnvironmentMovement.cs" />
+     <Compile Include="Assets\marinemr Assets\Scripts\Static_Planet_Movement.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
@@ -70,9 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{A90205D8-A11E-CA68-F271-718A96C11E1E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{C62E21C4-7CD8-5581-1E66-AC8E36219989}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{587AA729-B7D5-29D0-E61F-E26B633A323D}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

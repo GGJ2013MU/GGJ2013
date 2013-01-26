@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour {
+public class Enemy2 : MonoBehaviour {
 	
 	public bool jumpable;
 	

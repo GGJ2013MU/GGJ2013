@@ -50,7 +50,7 @@ public class EnvironmentMovement : MonoBehaviour {
 		
 		if(collision.gameObject.tag == "Enemy"){
 			// call method jumped for EnemyInterface
-			if(collision.gameObject.GetComponent<Enemy>().jumped()){
+			if(collision.gameObject.GetComponent<Enemy2>().jumped()){
 				
 				Vector3 direction = new Vector3(0,0,0) - transform.position;
 				rigidbody.velocity -= direction.normalized;
