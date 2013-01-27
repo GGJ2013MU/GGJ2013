@@ -26,7 +26,7 @@ public class Static_Planet_Movement : MonoBehaviour {
 		//Quaternion rot = Quaternion.LookRotation((new Vector3(0,transform.position.y,0) - transform.position).normalized);// * new Quaternion(0,0,0,0);
 		//transform.rotation = rot;
 		transform.LookAt(new Vector3(0,transform.position.y, 0));
-		transform.Rotate(new Vector3(-90,0,0));
+		transform.Rotate(new Vector3(20,-90,90));
 	}
 	
 	void OnCollisionEnter(Collision collision){
@@ -35,12 +35,8 @@ public class Static_Planet_Movement : MonoBehaviour {
 			rigidbody.velocity += transform.up.normalized * 2;
 		}
 		
-		if(collision.gameObject.tag == "Player")
-		{
-			///collision.gameObject.
-		}
-			 //call method jumped for EnemyInterface
-				
+		//if(collision.gameObject.tag == "Enemy"){
+			// call method jumped for EnemyInterface
 		//	if(collision.gameObject.GetComponent<Enemy2>().jumped()){
 				
 		//		Vector3 direction = new Vector3(0,0,0) - transform.position;
