@@ -15,7 +15,7 @@ public class Enemy2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		gameObject.GetComponent<Static_Planet_Movement>().movement(0.004f);
+		gameObject.GetComponent<Static_Planet_Movement>().movement(-0.004f);
 		if(!exist){
 			// delete this game object
 			Destroy(this.gameObject);
