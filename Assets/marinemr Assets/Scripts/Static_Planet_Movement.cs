@@ -35,8 +35,12 @@ public class Static_Planet_Movement : MonoBehaviour {
 			rigidbody.velocity += transform.up.normalized * 2;
 		}
 		
-		//if(collision.gameObject.tag == "Enemy"){
-			// call method jumped for EnemyInterface
+		if(collision.gameObject.tag == "Player")
+		{
+			///collision.gameObject.
+		}
+			 //call method jumped for EnemyInterface
+				
 		//	if(collision.gameObject.GetComponent<Enemy2>().jumped()){
 				
 		//		Vector3 direction = new Vector3(0,0,0) - transform.position;
